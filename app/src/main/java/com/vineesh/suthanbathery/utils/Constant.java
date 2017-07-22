@@ -6,7 +6,7 @@ package com.vineesh.suthanbathery.utils;
 
 public class Constant {
 
-    public static final String IMGE_URL = "http://exposeonline.in/xpokondotty/public/newsimages/";
+    public static final String IMGE_URL = "http://newsimages/";
 
 
     public static final String EMAIL ="vineeshkumarmk25@gmail.com";
