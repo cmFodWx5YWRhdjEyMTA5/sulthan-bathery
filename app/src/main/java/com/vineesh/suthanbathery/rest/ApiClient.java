@@ -13,7 +13,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class ApiClient {
 
 
-    private static final String BASE_URL="http://exposeonline.in/xpokondotty/public/index.php/";
+    private static final String BASE_URL="http://index.php/";
     private ApiInterface mApiInterface;
 
     public ApiInterface getApiInterface() {
