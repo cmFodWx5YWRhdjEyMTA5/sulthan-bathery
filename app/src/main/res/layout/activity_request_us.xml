@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sub_gradient"
+    tools:context="com.vineesh.suthanbathery.RequestUsActivity">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="50dp"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:id="@+id/l1"
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/text_input_name"
+            android:background="@drawable/sub_gradient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:textColorHint="#fff"
+
+            >
+
+
+
+            <EditText
+
+                android:id="@+id/etxt_name"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:textColor="#fff"
+                android:textColorHighlight="#fff"
+                android:textColorHint="#fff"
+                android:paddingLeft="10dp"
+                android:paddingRight="41dp"
+                android:layout_marginLeft="15dp"
+                android:drawablePadding="15dp"
+                android:drawableLeft="@drawable/ic_person"
+                android:inputType="textPersonName|textCapSentences"
+                android:layout_marginBottom="10dp"/>
+
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/text_input_mob"
+            android:background="@drawable/sub_gradient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_input_name"
+            android:textColorHint="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+
+            <EditText
+                android:id="@+id/etxt_mob"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Number"
+                android:textColorHighlight="#fff"
+                android:textColorHint="#fff"
+                android:paddingLeft="10dp"
+                android:paddingRight="41dp"
+                android:textColor="#fff"
+                android:layout_marginLeft="15dp"
+                android:drawablePadding="15dp"
+                android:drawableLeft="@drawable/ic_phone_number"
+                android:inputType="phone"
+                android:layout_marginBottom="10dp"/>
+
+
+        </android.support.design.widget.TextInputLayout>
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@+id/l1"
+           android:paddingBottom="50dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp">
+
+
+        <LinearLayout
+            android:id="@+id/selectcatogory"
+
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+
+            android:background="@drawable/sub_gradient"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp">
+            <Spinner
+                android:id="@+id/spinner_catogory"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:spinnerMode="dialog"
+                android:backgroundTint="#fff"
+                android:foregroundTint="#fff"
+
+               >
+
+            </Spinner>
+           <!-- <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gradient"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:padding="15dp"
+                android:textStyle="bold"
+                android:text="SELECT CATOGORY"/>-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/selectsubcatogory"
+
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp">
+            <Spinner
+                android:id="@+id/spinner_sub_catogory"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:backgroundTint="#fff"
+                android:foregroundTint="#fff"
+
+
+                />
+           <!-- <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gradient"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:padding="15dp"
+                android:textStyle="bold"
+                android:text="SELECT SUB CATOGORY"/>-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/selectarea"
+
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+
+            android:background="@drawable/sub_gradient"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp">
+
+            <Spinner
+                android:id="@+id/spinner_area"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#fff"
+                android:foregroundTint="#fff"
+                android:popupBackground="@android:color/transparent"
+                android:popupElevation="5dp"
+                android:popupTheme="@anim/slide_up"
+
+                />
+          <!--  <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gradient"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:padding="15dp"
+                android:textStyle="bold"
+                android:text="SELECT AREA"/>-->
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/submit_request"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:background="#fff"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sub_gradient"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#fff"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="SUBMIT"/>
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>

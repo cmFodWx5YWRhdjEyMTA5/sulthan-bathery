@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vineesh.suthanbathery.model.SquareLayout
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:clickable="true"
+    android:id="@+id/squarelayout"
+    android:focusable="true"
+    android:layout_margin="1dp"
+    android:background="@drawable/gradient"
+   >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:src="@drawable/svg_emergency"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Emergency"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:id="@+id/title"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+
+</com.vineesh.suthanbathery.model.SquareLayout>

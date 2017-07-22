@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:title="About"
+            android:icon="@drawable/ic_about"/>
+        <item
+            android:id="@+id/nav_contactdeveloper"
+            android:icon="@drawable/ic_contct_developer"
+            android:title="Contac the Developer" />
+        <item
+            android:id="@+id/nav_call"
+            android:title="Call"
+            android:icon="@drawable/ic_call"
+            />
+
+    </group>
+
+    <item android:title="Share the Application" >
+
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_raeteus"
+                android:icon="@drawable/ic_rate"
+                android:title="Rate us" />
+        </menu>
+    </item>
+
+</menu>

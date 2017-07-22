@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:color="@color/colorPrimary"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/navigation_news"
+        android:icon="@drawable/svg_news"
+        android:color="@color/colorPrimary"
+        android:title="News" />
+
+    <item
+        android:id="@+id/navigation_feedback"
+        android:icon="@drawable/svg_feed"
+        android:color="@color/colorPrimary"
+        android:title="Feedback" />
+
+    <item
+        android:id="@+id/navigation_mailus"
+        android:icon="@drawable/svg_mailus"
+        android:color="@color/colorPrimary"
+        android:title="Mail US" />
+
+
+
+</menu>
